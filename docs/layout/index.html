@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jones Journal</title>
+  <meta name="keywords" content=""/>
+  <meta name="description" content=""/>
+  <!--
+This html5, css3, and javascript layout was programmed by Chris Jones utilizing jQuery and Bootstrap libraries.  http://www.thejonesjournal.com
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<link rel="shortcut icon" href="PUT FAVICON HERE">-->
+  <!-- Google Web Font Embed -->
+  <link
+    href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+    rel='stylesheet' type='text/css'>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+  <!-- Animate CSS -->
+  <link href="css/animate.css" rel='stylesheet' type='text/css'>
+  <!-- Jones Journal specific styles -->
+  <link href="js/colorbox/colorbox.css" rel='stylesheet' type='text/css'>
+  <link href="css/jonesjournal_style.css" rel='stylesheet' type='text/css'>
+  <!--[if IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![end IE 9]-->
+</head>
+<body>
+<div class="jonesjournal-top-bar flipInX animatedTop" id="jonesjournal-top">
+  <div class="container">
+    <div class="subheader">
+      <div id="latest" class="pull-left">
+        <b>CURRENT PROJECT:</b> <a href="thejonesjournal.com" target="_blank"><i>My portfolio site (html/css/javascript,
+        bootstrap/jQuery)</i></a>
+      </div>
+      <div id="email" class="pull-right">
+        <a href="mailto:cjcjrun@gmail.com">
+          <img src="images/email.png" alt="email"/>
+          cjcjrun@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jonesjournal-top-menu">
+  <div class="container" class="jonesjournal_clear">
+    <!-- Static navbar -->
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="fadeInUp animatedTopFirst"><img src="images/jones_portrait.png" width="15%">
+            <img src="images/jonesjournal_logo.png" alt="Jones Journal"
+                 title="Jones Template" width="75%"/>
+          </div>
+
+          <button width="20%" type="button" class="navbar-toggle" data-toggle="collapse"
+                  data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+      <div class="navbar-collapse collapse" id="jonesjournal-nav-bar">
+        <ul class="nav navbar-nav navbar-right slideInLeft rotateInDownRight animatedTopMenu" style="margin-top: 0px;">
+          <li class="active">
+          <li class="rotateInDownRight animatedTopMenu"><a href="#jonesjournal-mobile">MOBILE DEVELOPMENT</a></li>
+          <li class="rotateInDownRight animatedTopMenu"><a href="#jonesjournal-graphic">GRAPHIC DESIGN</a></li>
+          <li class="rotateInDownRight animatedTopMenu"><a href="#jonesjournal-web">WEB DESIGN</a></li>
+          <li class="rotateInDownRight animatedTopMenu"><a href="#jonesjournal-writing">WRITING</a></li>
+          <li class="rotateInDownRight animatedTopMenu"><a href="#jonesjournal-contact">CONNECT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Carousel -->
+<div id="jonesjournal-carousel" class="carousel slide fadeInUp animatedCarousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#jonesjournal-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#jonesjournal-carousel" data-slide-to="1"></li>
+    <li data-target="#jonesjournal-carousel" data-slide-to="2"></li>
+    <li data-target="#jonesjournal-carousel" data-slide-to="3"></li>
+    <li data-target="#jonesjournal-carousel" data-slide-to="4"></li>
+    <li data-target="#jonesjournal-carousel" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="h1">Hello World.</h1>
+
+          <p class="p1"></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <div class="col-sm-6 col-md-6">
+            <h3 class="p1">I am a mobile applications developer</h3><br>
+
+            <h3 class="p1">and a digital graphics
+              designer.</h3>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <h3 class="p1"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <div class="col-sm-6 col-md-6">
+            <h3 class="p1">I believe technology should <b>enhance</b> the experience of being human.</h3>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+
+
+          <h3 class="p1">It should not be a distraction.</h3>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h3 align="left" class="h1">I want the future to know: being alive <i>mattered to me.</i></b></h3>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h3 class="h1">Let's <i>build</i> something.</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <a class=" left carousel-control" href="#jonesjournal-carousel" data-slide="prev"><span
+    class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#jonesjournal-carousel" data-slide="next"><span
+    class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+<!-- First Quote -->
+<div class="jonesjournal-tweets">
+  <div class="container">
+    <div class="row" style="margin-top:20px;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-1">
+        <img src="images/quote.png" alt="icon"/>
+      </div>
+      <div class="col-md-7 tweet_txt">
+        <span>The process of preparing programs for a digital computer...can be an aesthetic experience much like
+          composing poetry or music.</span>
+        <br/>
+        <span class="twitter_user">David Knuth, Computer Scientist</span>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!--SECTION mobile development -->
+<div id="jonesjournal-mobile" class="jonesjournal-background">
+  <div class="container">
+    <div class="row">
+      <div class="jonesjournal-line-header">
+        <div class="text-center">
+          <hr class="team_hr team_hr_left hr_gray"/>
+          <span class="txt_darkgrey">MOBILE</span>
+          <hr class="team_hr team_hr_right hr_gray"/>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="jonesjournal-gallery-category" style="font-size:16px; margin-top:80px;">
+        <div class="text-center">
+          <a class="active" href=".gallery">All</a> / <a href=".gallery-design">Web Design </a>/ <a
+          href=".gallery-graphic">Graphic</a> / <a href=".gallery-inspiration">Inspiration</a> / <a
+          href=".gallery-creative">Creative</a>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="text-center">
+      <ul class="jonesjournal-project-gallery">
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic">
+          <a class="colorbox" href="images/mobile/morris/morris1.jpg" data-group="gallery-graphic">
+            <div class="jonesjournal-project-box">
+
+              <img src="images/mobile/morris/morris1.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Politican App</h5>
+                <hr/>
+                <h4>ANDROID</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic">
+          <a class="colorbox" href="images/mobile/morris/morris2.jpg" data-group="gallery-graphic">
+            <div class="jonesjournal-project-box">
+
+              <img src="images/mobile/morris/morris2.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Politican App</h5>
+                <hr/>
+                <h4>ANDROID</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic">
+          <a class="colorbox" href="images/mobile/morris/morris3.jpg" data-group="gallery-graphic">
+            <div class="jonesjournal-project-box">
+
+              <img src="images/mobile/morris/morris3.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Politican App</h5>
+                <hr/>
+                <h4>ANDROID</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic">
+          <a class="colorbox" href="images/mobile/morris/morris4.jpg" data-group="gallery-graphic">
+            <div class="jonesjournal-project-box">
+
+              <img src="images/mobile/morris/morris4.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Politican App</h5>
+                <hr/>
+                <h4>ANDROID</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-creative">
+          <a class="colorbox" href="images/full-gallery-image-2.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-2.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Creative</h5>
+                <hr/>
+                <h4>BREAKFAST</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/full-gallery-image-3.jpg" data-group="gallery-inspiration">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-3.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Inspiration</h5>
+                <hr/>
+                <h4>GREEN COLORS</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-design">
+          <a class="colorbox" href="images/full-gallery-image-4.jpg" data-group="gallery-design">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-4.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Web Design</h5>
+                <hr/>
+                <h4>CAMERA</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/full-gallery-image-5.jpg" data-group="gallery-inspiration">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-5.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Inspiration</h5>
+                <hr/>
+                <h4>PLANT</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/full-gallery-image-6.jpg" data-group="gallery-inspiration">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-6.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Inspiration</h5>
+                <hr/>
+                <h4>CABLE TRAIN</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-design">
+          <a class="colorbox" href="images/full-gallery-image-7.jpg" data-group="gallery-design">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-7.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Web Design</h5>
+                <hr/>
+                <h4>CITY</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-creative">
+          <a class="colorbox" href="images/full-gallery-image-8.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-8.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Creative</h5>
+                <hr/>
+                <h4>BIRDS</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-graphic">
+          <a class="colorbox" href="images/full-gallery-image-9.jpg" data-group="gallery-graphic">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-9.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Graphic</h5>
+                <hr/>
+                <h4>NATURE</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-inspiration">
+          <a class="colorbox" href="images/full-gallery-image-10.jpg" data-group="gallery-inspiration">
+            <div class="jonesjournal-project-box">
+              <img src="images/gallery-image-10.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>Inspiration</h5>
+                <hr/>
+                <h4>DOGGY</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <!-- /.gallery -->
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <!-- /.container -->
+</div>
+<!--Mobile Development Descripton-->
+<div class="jonesjournal-service">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/mobile1.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">MOBILE PHILOSOPHY</span>
+          </div>
+          <article><br><br>Mobile: the culmination of hundreds of years of innovation into the most profound
+            technological achievement of our lifetime.
+            <br><br> Mobile is disrupting mass-media, politics, education, business and how people consume
+            information. Everybody in society is affected by mobile devices.<br><br><h4><i>According
+              to <a
+                href="http://www.comscore.com/Insights/Market-Rankings/comScore-Reports-December-2014-US-Smartphone-Subscriber-Market-Share?"
+                target="_blank">comScore</a> in 2014 approximately 182 million Americans owned a smartphone,
+              representing 75% of the population.</i></h4><br>
+            This technology is not just limited to smartphones; mobile incorporates wearable devices, automobiles,
+            toys, and even portable smart appliances. Increasingly, platforms that would not, at first, appear to be
+            mobile, such as home video game systems, cable boxes, and Blu-Ray players are using mobile-derived
+            operating systems. The Sony Playstation store, Android TV, Samsung Smart TV, and Apple TV are examples of
+            mobile operating systems applied to the home market.<br><br>
+            <br><h4>"mobile phones now account for 62%
+              of all time spent online... 44% of time is spent on smartphone
+              apps" - <a
+                href="http://blogs.wsj.com/digits/2015/09/22/websites-attract-bigger-audiences-but-users-spend-more-time-in-apps/"
+                target="_blank">Wall Street Journal</a></h4>
+            From a one-man startup to a billion dollar operation, a poor mobile
+            strategy is increasingly pointing towards disconnect with customers.<br>
+          </article>
+          <br class="clearfix"/>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/mobile1.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">MOBILE DESIGN</span>
+          </div>
+          <article><br><br>
+            A positive user experience can make or break an application. The user should know within seconds of opening
+            the app how to navigate around. Each screen should clearly define
+            the purpose of the application and menu options should be ke
+            <br><br>
+            Movements should be intuitive and flawless.
+
+            simple experience that takes
+            advantage of the mobile platform and the strength of the individual machine.
+            I prefer native development above other platforms because of the flexibility and extra
+            functionality it allows the designer and the challenge of stringing together large, complex
+            application
+            logic.
+            Some
+            applications require a
+            complex
+            physics engine (like a game) or are built upon a hybrid model which displays elements of webpages.
+            Native
+            development allows complete use of the device features as well as location
+            services, a localized database, and rock-solid security. The options for end-users to spend money on
+            an
+            app are also nearly limitless.<br>
+          </article>
+          <br class="clearfix"/>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/mobile1.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">MOBILE TOOLS</span>
+          </div>
+          <article><br><br>
+            <b>Android</b><br>
+            * Android Studio<br>
+            * Java<br>
+            * XML<br>
+            * SQL<br>
+            DEVICES: Android Phones, Tablets, Android Auto, Android Watch, Wearable Fitness Trackers,
+            Smarthomes<br><br>
+            <b>iOS</b><br>
+            * Xcode<br>
+            * Swift<br>
+            * Objective-C<br>
+            DEVICES: Apple iPhone, iPad, Apple Watch, Apple TV<br>
+            <br>
+            <br>
+            <b>Other:</b><br>
+            * Unity 3D Game Studio<br>
+            * Eclipse<br>
+            * Fabric.io<br>
+            * Various API's (Twitter, Facebook, Google Play Services, etc.)
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Second Quote -->
+<div class="jonesjournal-tweets">
+  <div class="container">
+    <div class="row" style="margin-top:20px;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-1">
+        <img src="images/quote.png" alt="icon"/>
+      </div>
+      <div class="col-md-7 tweet_txt">
+        <span>Technology is the means by which we have decommissioned natural selection and are seizing control. We are no longer to be victims of some blind evolutionary process where sentient beings are massacred by entropy.</span>
+        <br/>
+        <span class="twitter_user">Jason Silva, host of <i>"Shots of Awe"</i></span>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!--SECTION graphic design-->
+<div id="jonesjournal-graphic">
+  <div class="container">
+    <div class="row">
+      <div id="slider" class="jonesjournal-line-header animated slideInLeft">
+        <div class="text-center">
+          <hr class="team_hr team_hr_left hr_gray" data-sr="move 16px scale up 20%, over 2s"/>
+          <span class="txt_darkgrey">GRAPHIC DESIGN</span>
+          <hr class="team_hr team_hr_right hr_gray" data-sr="move 16px scale up 20%, over 2s"/>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="jonesjournal-gallery-category" style="font-size:16px; margin-top:80px;">
+        <div class="text-center">
+          <a class="active" href=".gallery">All</a> / <a href=".gallery-design">Event Posters </a>/ <a
+          href=".gallery-graphic">Logos</a> / <a
+          href=".gallery-creative">Creative</a>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="text-center">
+      <ul class="jonesjournal-project-gallery">
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-creative">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-creative">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-design">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-design">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-creative">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-graphic">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <!-- /.gallery -->
+    </div>
+    <div class="clearfix"></div>
+    <div class="row text-center">
+      <a class="btn_loadmore btn btn-lg btn-orange" href="#" role="button">LOAD MORE</a>
+    </div>
+  </div>
+</div>
+<!--graphicDesign description-->
+<div class="jonesjournal-service">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/leaf.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">DESIGN PHILOSOPHY</span>
+          </div>
+          <article><br><br>Everywhere that I see smartphones, I see active engagement potential. Mobile is disrupting
+            mass-media,
+            politics, education, business and how we consume
+            information. The infrastructure of mobile one the most profound
+            technological achievement of our lifetimes.
+            <br><br>is essential to reinforcing a strong, relevant
+            brand image.
+          </article>
+          <br class="clearfix"/>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/leaf.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">DESIGN CONCERNS</span>
+          </div>
+          <article><br><br>
+            A positive user experience can make or break an application. The user should know within seconds of opening
+            the app how to navigate around. Each screen should clearly define
+            the purpose of the application and menu options should be ke
+            <br><br>
+            Movements should be intuitive and flawless.
+
+            simple experience that takes
+            advantage of the mobile platform and the strength of the individual machine.
+            I prefer native development above other platforms because of the flexibility and extra
+            functionality it allows the designer and the challenge of stringing together large, complex
+            application
+            logic.
+            Some
+            applications require a
+            complex
+            physics engine (like a game) or are built upon a hybrid model which displays elements of webpages.
+            Native
+            development allows complete use of the device features as well as location
+            services, a localized database, and rock-solid security. The options for end-users to spend money on
+            an
+            app are also nearly limitless.<br>
+          </article>
+          <br class="clearfix"/>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/leaf.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">DESIGN TOOLS</span>
+          </div>
+          <article><br><br>
+            <b>Android</b><br>
+            * Android Studio<br>
+            * Java<br>
+            * XML<br>
+            * SQL<br>
+            DEVICES: Android Phones, Tablets, Android Auto, Android Watch, Wearable Fitness Trackers,
+            Smarthomes<br><br>
+            <b>iOS</b><br>
+            * Xcode<br>
+            * Swift<br>
+            * Objective-C<br>
+            DEVICES: Apple iPhone, iPad, Apple Watch, Apple TV<br>
+            <br>
+            <br>
+            <b>Other:</b><br>
+            * Unity 3D Game Studio<br>
+            * Eclipse<br>
+            * Fabric.io<br>
+            * Various API's (Twitter, Facebook, Google Play Services, etc.)
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Third Quote -->
+<div class="jonesjournal-tweets">
+  <div class="container">
+    <div class="row" style="margin-top:20px;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-1">
+        <img src="images/quote.png" alt="icon"/>
+      </div>
+      <div class="col-md-7 tweet_txt">
+        <span>Geeks are people who love something so much that <i>all</i> of the details matter.</span>
+        <span class="twitter_user">Marissa Mayer, ceo of Yahoo</span>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!--SECTION web development -->
+<div id="jonesjournal-web">
+  <div class="container">
+    <div class="row">
+      <div class="jonesjournal-line-header">
+        <div class="text-center">
+          <hr class="team_hr team_hr_left hr_gray"/>
+          <span class="txt_darkgrey">WEB DEVELOPMENT</span>
+          <hr class="team_hr team_hr_right hr_gray"/>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="jonesjournal-gallery-category" style="font-size:16px; margin-top:80px;">
+        <div class="text-center">
+          <a class="active" href=".gallery">All</a> / <a href=".gallery-design">Web Design </a>/ <a
+          href=".gallery-graphic">Graphic</a> / <a href=".gallery-inspiration">Inspiration</a> / <a
+          href=".gallery-creative">Creative</a>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="text-center">
+      <ul class="jonesjournal-project-gallery">
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-creative">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-design">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-design">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-creative">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-graphic">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+                <h5>Graphic</h5>
+                <hr/>
+                <h4>NATURE</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-inspiration">
+          <a class="colorbox" href="images/UNDER_CONSTRUCTION.jpg.jpg" data-group="gallery-creative">
+            <div class="jonesjournal-project-box">
+              <img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="gallery"/>
+
+              <div class="project-overlay">
+                <h5>UNDER</h5>
+                <hr/>
+                <h4>CONSTRUCTION</h4>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <!-- /.gallery -->
+    </div>
+    <div class="clearfix"></div>
+    <div class="row text-center">
+      <a class="btn_loadmore btn btn-lg btn-orange" href="#" role="button">LOAD MORE</a>
+    </div>
+  </div>
+  <!-- /.container -->
+</div>
+<!-- Web Development Description -->
+<div class="jonesjournal-service">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/globe.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">WEB PHILOSOPHY</span>
+          </div>
+          <article><br><br>Everywhere that I see smartphones, I see active engagement potential. Mobile is disrupting
+            mass-media,
+            politics, education, business and how we consume
+            information. The infrastructure of mobile one the most profound
+            technological achievement of our lifetimes.
+            <br><br>is essential to reinforcing a strong, relevant
+            brand image.
+          </article>
+          <br class="clearfix"/>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/globe.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">WEB DESIGN</span>
+          </div>
+          <article><br><br>
+            A positive user experience can make or break an application. The user should know within seconds of opening
+            the app how to navigate around. Each screen should clearly define
+            the purpose of the application and menu options should be ke
+            <br><br>
+            Movements should be intuitive and flawless.
+
+            simple experience that takes
+            advantage of the mobile platform and the strength of the individual machine.
+            I prefer native development above other platforms because of the flexibility and extra
+            functionality it allows the designer and the challenge of stringing together large, complex
+            application
+            logic.
+            Some
+            applications require a
+            complex
+            physics engine (like a game) or are built upon a hybrid model which displays elements of webpages.
+            Native
+            development allows complete use of the device features as well as location
+            services, a localized database, and rock-solid security. The options for end-users to spend money on
+            an
+            app are also nearly limitless.<br>
+          </article>
+          <br class="clearfix"/>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="jonesjournal-service-item">
+          <div>
+            <img src="images/globe.png" alt="icon"/>
+            <span class="jonesjournal-service-item-header">DEVELOPMENT TOOLS</span>
+          </div>
+          <article><br><br>
+            <b>Android</b><br>
+            * Android Studio<br>
+            * Java<br>
+            * XML<br>
+            * SQL<br>
+            DEVICES: Android Phones, Tablets, Android Auto, Android Watch, Wearable Fitness Trackers,
+            Smarthomes<br><br>
+            <b>iOS</b><br>
+            * Xcode<br>
+            * Swift<br>
+            * Objective-C<br>
+            DEVICES: Apple iPhone, iPad, Apple Watch, Apple TV<br>
+            <br>
+            <br>
+            <b>Other:</b><br>
+            * Unity 3D Game Studio<br>
+            * Eclipse<br>
+            * Fabric.io<br>
+            * Various API's (Twitter, Facebook, Google Play Services, etc.)
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fourth Quote -->
+<div class="jonesjournal-tweets">
+  <div class="container">
+    <div class="row" style="margin-top:20px;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-1">
+        <img src="images/quote.png" alt="icon"/>
+      </div>
+      <div class="col-md-7 tweet_txt">
+        <span>I think people who create and write, it actually does flow-just flows from into their head, into their hand, and they write it down. It's simple.</span>
+        <span class="twitter_user">Paul McCartney</span>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!-- SECTION writing -->
+<div id="jonesjournal-writing">
+  <div class="container">
+    <div class="row">
+      <div class="jonesjournal-line-header" style="margin-top: 0px;">
+        <div class="text-center">
+          <hr class="team_hr team_hr_left hr_gray"/>
+          <span class="span_blog txt_darkgrey">BLOG POSTS</span>
+          <hr class="team_hr team_hr_right hr_gray"/>
+        </div>
+      </div>
+      <br class="clearfix"/>
+    </div>
+
+    <div class="blog_box">
+      <div class="col-sm-5 col-md-6 blog_post">
+        <ul class="list-inline">
+          <li class="col-md-4">
+            <a href="#">
+              <img class="img-responsive" src="images/blog-image-1.jpg" alt="gallery 1"/>
+            </a>
+          </li>
+          <li class="col-md-8">
+            <div class="pull-left">
+              <span class="blog_header">GRAPHIC DESIGN</span><br/>
+              <span>Posted by : <a class="link_orange" href="#"><span class="txt_orange">Tracy</span></a></span>
+            </div>
+            <div class="pull-right">
+              <a class="btn btn-orange" href="#" role="button">18 January 2084</a>
+            </div>
+            <div class="clearfix"></div>
+            <p class="blog_text">
+              Aliquam quis rutrum risus, ut condimentum ipsum. Nullam aliquet libero augue, eget auctor felis
+              vulputate
+              id. Proin a enim eu libero ornare malesuada. Sed iaculis fringilla lacinia. Sed laoreet lectus
+              vitae [...]
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- /.blog_post 1 -->
+
+      <div class="col-sm-5 col-md-6 blog_post">
+        <ul class="list-inline">
+          <li class="col-md-4"><a href="#">
+            <img class="img-responsive" src="images/blog-image-2.jpg" alt="gallery 2"/></a>
+          </li>
+          <li class="col-md-8">
+            <div class="pull-left">
+              <span class="blog_header">WEBSITE TEMPLATE</span><br/>
+              <span>Posted by : <a class="link_orange" href="#"><span class="txt_orange">Mary</span></a></span>
+            </div>
+            <div class="pull-right">
+              <a class="btn btn-orange" href="#" role="button">16 January 2084</a>
+            </div>
+            <div class="clearfix"></div>
+            <p class="blog_text">
+              Morbi imperdiet ipsum sit amet dui pharetra, vulputate porta neque tristique. Quisque id turpis
+              tristique,
+              venenatis erat sit amet, venenatis turpis. Ut tellus ipsum, posuere bibendum [...]
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- /.blog_post 2 -->
+
+      <div class="jonesjournal_clear"></div>
+
+      <div class="col-sm-5 col-md-6 blog_post">
+        <ul class="list-inline">
+          <li class="col-md-4"><a href="#">
+            <img class="img-responsive" src="images/blog-image-2.jpg" alt="gallery 3"/></a>
+          </li>
+          <li class="col-md-8">
+            <div class="pull-left">
+              <span class="blog_header">WEB DEVELOPMENT</span><br/>
+              <span>Posted by : <a class="link_orange" href="#"><span class="txt_orange">Julia</span></a></span>
+            </div>
+            <div class="pull-right">
+              <a class="btn btn-orange" href="#" role="button">12 January 2084</a>
+            </div>
+            <div class="clearfix"></div>
+            <p class="blog_text">
+              Fusce molestie tellus risus, id commodo turpis convallis id. Morbi mattis sapien sapien, vitae
+              lacinia
+              ante interdum sit amet. Praesent eget varius diam, ac tempor est. Mauris at scelerisque magna
+              [...]
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- /.blog_post 3 -->
+
+      <div class="col-sm-5 col-md-6 blog_post">
+        <ul class="list-inline">
+          <li class="col-md-4">
+            <a href="#">
+              <img class="img-responsive" src="images/blog-image-1.jpg" alt="gallery 4"/>
+            </a>
+          </li>
+          <li class="col-md-8">
+            <div class="pull-left">
+              <span class="blog_header">NEW FLUID LAYOUT</span><br/>
+              <span>Posted by : <a class="link_orange" href="#"><span class="txt_orange">Linda</span></a></span>
+            </div>
+            <div class="pull-right">
+              <a class="btn btn-orange" href="#" role="button">10 January 2084</a>
+            </div>
+            <div class="clearfix"></div>
+            <p class="blog_text">
+              In venenatis sodales purus a cursus. Ut consectetur, libero ac elementum tristique, enim ante
+              aliquet
+              mauris, scelerisque congue magna neque ac purus. Aliquam facilisis volutpat odio [...]
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- /.blog_post 4 -->
+    </div>
+  </div>
+</div>
+<!-- /#jonesjournal-contact-->
+<!--
+<div id="jonesjournal-contact">
+  <div class="container">
+    <div class="row">
+      <div class="jonesjournal-line-header head_contact">
+        <div class="text-center">
+          <hr class="team_hr team_hr_left hr_gray"/>
+          <span class="txt_darkgrey">CONTACT US</span>
+          <hr class="team_hr team_hr_right hr_gray"/>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="jonesjournal-contact-map" id="map-canvas"></div>
+        <div class="clearfix"></div>
+        <i>You can find us on 123 Dagon Studio, Yankin Street, <span class="txt_orange">Digital Estate</span> in
+          Yangon.</i>
+      </div>
+      <div class="col-md-4 contact_right">
+        <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit pendisse as a molesti.</p>
+
+        <p><img src="images/location.png" alt="icon 1"/> 123 Dagon Studio, Yakin Street, Digital Estate</p>
+
+        <p><img src="images/phone1.png" alt="icon 2"/> 010-020-0340</p>
+
+        <p><img src="images/globe.png" alt="icon 3"/><a class="link_orange" href="#"><span class="txt_orange">www.company.com</span></a>
+        </p>
+
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Name..." maxlength="40"/>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email..." maxlength="40"/>
+          </div>
+          <div class="form-group">
+                    <textarea class="form-control" style="height: 130px;"
+                              placeholder="Write down your message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-orange pull-right">SEND</button>
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+-->
+<div class="jonesjournal-tweets">
+  <div class="container">
+    <div class="row" style="margin-top:20px;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-1">
+        <img src="images/quote.png" alt="icon"/>
+      </div>
+      <div class="col-md-7 tweet_txt">
+        <span>Design is not just what it looks like and feels like. Design is how it works.</span>
+        <br/>
+        <span class="twitter_user">Steve Jobs</span>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<div class="jonesjournal-partners">
+  <div class="container">
+    <div class="row">
+
+
+      <div class="jonesjournal-line-header">
+        <div class="text-center">
+          <hr class="team_hr team_hr_left hr_gray"/>
+          <span class="txt_darkgrey">LINKS TO FRIENDS</span>
+          <hr class="team_hr team_hr_right hr_gray"/>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+
+      <div class="text-center">
+
+        <div style="margin-top:60px;">
+          <ul class="list-inline">
+            <li class="col-sm-2 col-md-2 jonesjournal-partner-item">
+              <a href="http://crashclinicconsulting.blogspot.com/" target="_blank"><img src="images/UNDER_CONSTRUCTION.jpg"
+                                                                                        class="img-responsive"
+                                                                                        alt="Crash Clinic Computers"/></a>
+            </li>
+            <li class="col-sm-2 col-md-2 jonesjournal-partner-item">
+              <a href="#"><img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="partner 2"/></a>
+            </li>
+            <li class="col-sm-2 col-md-2 jonesjournal-partner-item">
+              <a href="#"><img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="partner 3"/></a>
+            </li>
+            <li class="col-sm-2 col-md-2 jonesjournal-partner-item">
+              <a href="#"><img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="partner 4"/></a>
+            </li>
+            <li class="col-sm-2 col-md-2 jonesjournal-partner-item">
+              <a href="#"><img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="partner 5"/></a>
+            </li>
+            <li class="col-sm-2 col-md-2 jonesjournal-partner-item">
+              <a href="#"><img src="images/UNDER_CONSTRUCTION.jpg" class="img-responsive" alt="partner 6"/></a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jonesjournal-footer">
+  <div class="container">
+    <div class="row">
+      <div class="text-center">
+        <div class="footer_container">
+          <ul class="list-inline">
+            <li>
+              <a href="#">
+                <span class="social-icon-fb"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="social-icon-rss"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="social-icon-twitter"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="social-icon-linkedin"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="social-icon-dribbble"></span>
+              </a>
+            </li>
+          </ul>
+          <div class="height30"></div>
+          <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top">Back To Top</a>
+
+          <div class="height30"></div>
+        </div>
+        <div class="footer_bottom_content">
+                   			<span>Copyright © 2015 <a href="#">Christopher Jones</a>
+                             - Design: Christopher Jones</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/stickUp.min.js" type="text/javascript"></script>
+<script src="js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+<script src="js/jonesjournal_script.js" type="text/javascript"></script>
+<script src='/js/scrollReveal.min.js'></script>
+<script>window.sr = new scrollReveal();</script>
+</body>
+</html>
