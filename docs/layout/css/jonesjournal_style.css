@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6, span, p {
     background-size: cover;
     margin-bottom: 0;
     width: 100%;
-    background: url('../images/lighthouse3.jpg') no-repeat center center;
+    background: url('../images/jones_portrait.png') no-repeat center center;
     z-index: -5;
   }
 }
@@ -342,7 +342,7 @@ div.jonesjournal-welcome :hover {
 }
 
 .jonesjournal-team {
-  background: url('../images/lighthouse2.jpg');
+  background: url('../images/jones_portrait.png');
   font-family: 'Open Sans', sans-serif;
   min-height: 590px;
   color: #ffffff;
@@ -553,58 +553,58 @@ div.jonesjournal-welcome :hover {
 }
 
 .social-icon-fb {
-  background: url('../images/social-icon-fb.png') no-repeat;
+  background: url('../images/icons/social-icon-fb.png') no-repeat;
   width: 42px;
   height: 42px;
   display: block;
 }
 
 a:hover .social-icon-fb {
-  background: url('../images/social-icon-fb-over.png') no-repeat;
+  background: url('../images/icons/social-icon-fb-over.png') no-repeat;
 }
 
 .social-icon-rss {
-  background: url('../images/social-icon-rss.png') no-repeat;
+  background: url('../images/icons/social-icon-rss.png') no-repeat;
   width: 42px;
   height: 42px;
   display: block;
 }
 
 a:hover .social-icon-rss {
-  background: url('../images/social-icon-rss-over.png') no-repeat;
+  background: url('../images/icons/social-icon-rss-over.png') no-repeat;
 }
 
 .social-icon-twitter {
-  background: url('../images/social-icon-twitter.png') no-repeat;
+  background: url('../images/icons/social-icon-twitter.png') no-repeat;
   width: 42px;
   height: 42px;
   display: block;
 }
 
 a:hover .social-icon-twitter {
-  background: url('../images/social-icon-twitter-over.png') no-repeat;
+  background: url('../images/icons/social-icon-twitter-over.png') no-repeat;
 }
 
 .social-icon-linkedin {
-  background: url('../images/social-icon-linkedin.png') no-repeat;
+  background: url('../images/icons/social-icon-linkedin.png') no-repeat;
   width: 42px;
   height: 42px;
   display: block;
 }
 
 a:hover .social-icon-linkedin {
-  background: url('../images/social-icon-linkedin-over.png') no-repeat;
+  background: url('../images/icons/social-icon-linkedin-over.png') no-repeat;
 }
 
 .social-icon-dribbble {
-  background: url('../images/social-icon-dribbble.png') no-repeat;
+  background: url('../images/icons/social-icon-dribbble.png') no-repeat;
   width: 42px;
   height: 42px;
   display: block;
 }
 
 a:hover .social-icon-dribbble {
-  background: url('../images/social-icon-dribbble-over.png') no-repeat;
+  background: url('../images/icons/social-icon-dribbble-over.png') no-repeat;
 }
 
 ul.jonesjournal-project-gallery li a img:hover {
